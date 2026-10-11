@@ -1,0 +1,88 @@
+# ==============================================================================
+# Flask Specifics
+# ==============================================================================
+# The instance directory can contain local configuration, keys, and database files
+instance/
+.webassets-cache
+
+# ==============================================================================
+# Environment Variables & Sensitive Credentials
+# ==============================================================================
+# Contains secrets, API keys, database credentials, and Flask secret keys
+.env
+.flaskenv
+*.env
+
+# ==============================================================================
+# Python Byte-compiled / Optimized Files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================================================================
+# Virtual Environments (Local Dependencies)
+# ==============================================================================
+.venv/
+venv/
+ENV/
+env/
+pyvenv.cfg
+.python-version
+Pipfile.lock
+
+# ==============================================================================
+# Distribution & Packaging
+# ==============================================================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================================================
+# Testing, Coverage, & Code Quality Logs
+# ==============================================================================
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.leak
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================================================================
+# Databases (If using SQLite locally)
+# ==============================================================================
+*.db
+*.sqlite3
+
+# ==============================================================================
+# IDEs / Editor Configurations & OS Files
+# ==============================================================================
+# JetBrains / PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
